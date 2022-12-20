@@ -13,7 +13,7 @@ Gör även en kontroll så att man inte kan gå minus på kontot!
 Testa din klass genom att skapa en instans av klassen, d.v.s ett konto för en viss “owner”. Testa även att göra några insättningar och uttag, samt checka saldot.
 
 
-/*
+
   TASK 2
     - Write a Car constructor that initializes `model` and `milesPerGallon` from arguments.
     - All instances built with Car:
@@ -27,4 +27,5 @@ Testa din klass genom att skapa en instans av klassen, d.v.s ett konto för en v
         + Should cause the the `tank` to go down taking `milesPerGallon` into account.
     - STRETCH: A car which runs out of `fuel` while driving can't drive any more distance:
         + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
-*/
+
+https://www.rithmschool.com/courses/advanced-javascript/javascript-constructor-functions
