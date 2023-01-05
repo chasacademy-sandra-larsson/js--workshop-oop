@@ -6,26 +6,26 @@ Syftet med denna workshop är att få förståelse och öva färdigheter om OOP 
 
 1. Vad menas med en objekts prototyp?
 
-2. Vad menas med Prototype inheritance i Javascript
+2. Vad menas med Prototype inheritance i Javascript?
 
 2. Vad gör en s.k konstruktor-funktion? Vad gör det reserverade ordet `new`?
 
 3. Vad refererar `this` till?
 
-4. Hur kan skapa metoder som delas med alla instanser som är skapade av konstruktorfunktionen?
+4. Hur kan man skapa metoder som delas av alla instanser som är skapade av konstruktorfunktionen?
 
 
 ### Övning Geometriska figurer med Prototype inheritance
 
 1. Skapa en konstruktorfunktion `Shape` som initialiseras med tre egenskaper - `name`, `sides` och `sideLength`
 
-2. Lägg till en ny metod som delas med alla `Shape`-instanser. Metoden heter calcPerimeter och bara beräkna omkretsen av den geomteriska figuren.
+2. Lägg till en ny metod som delas med alla `Shape`-instanser. Metoden heter `calcPerimeter` och beräknar omkretsen av den geomteriska figuren.
 
 3. Skapa en ny instans av `Shape` och kalla den `square` med `sides`är 4 och `sideLength` är 5.
 
-4. Anropa `calcPerimeter`på den skapade instansen `square` och se att bräkningen stämmer i utskriften. 
+4. Anropa `calcPerimeter`på den skapade instansen `square` och se att beräkningen stämmer i utskriften. 
 
-5. Testa att skapa en annan instans av `Shape`som kallas `triangle` med `sides`3 och `sideLength` 3. Anropa `calcPerimeter` på den instansen och se att beräkningen stämmer i utskriften.
+5. Testa att skapa en annan instans av `Shape` som kallas `triangle` med `sides` 3 och `sideLength` 3. Anropa `calcPerimeter` på den instansen och se att beräkningen stämmer i utskriften.
 
 ## ES6 classes
 
@@ -35,11 +35,12 @@ Skriv om övningen så att du istället för Prototype inheritance använder syn
 
 ### Klassen Bankkonto
 
-Definiera en klass med namnet “BankAccount”. Bankkontot ska ha attributen “owner” och “balance” 0.0 när instansen skapas. 
-Varje Bankkonto ska även ha instansmetoderna:
- “deposit” som sätter in en viss summa från bankkontot 
- “withdraw” som tar ut en viss summa från bankkontot 
-“getBalance” som skriver ut nuvarande saldo för bankkontot
+Definiera en klass med namnet “BankAccount”. Bankkontot ska ha egenskaperna “owner” och “balance” 0.0 när instansen skapas. 
+
+Varje bankkonto ska även ha metoderna:
+ * `deposit` som sätter in en viss summa från bankkontot 
+ * `withdraw` som tar ut en viss summa från bankkontot 
+ * `getBalance` som skriver ut nuvarande saldo för bankkontot
 
 Gör även en kontroll så att man inte kan gå minus på kontot!
 
